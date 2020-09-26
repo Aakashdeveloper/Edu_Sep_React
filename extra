@@ -1,143 +1,24 @@
-React -3
-React-redux-1-2
-React-JWT -1
-React-graphql-1
-react-saga-1
-Basic react-native
-
-Ecma6
-
-Deploy> build >npm run build
-> mern
-> heroku
-> docker
-> nginx
-
-> Testing jest enzym
-
->>>>>>>>>>NOT>>>>>>>>>>>>>>>>
-Api for application
-Rest Api
-graphql
-login-logout
-Database
-
-https://code.visualstudio.com/
-https://github.com/
-https://github.com/Aakashdeveloper
-https://nodejs.org/en/
-
-Basic JavaScript
-npm 
-package.json
-setup/run react app
+view => where we can click button or call api
+            ||
+            \/
+action => where API call happen it return type and payload
+            ||
+            \/
+Reducer => where state managment happen
+            ||
+            \/
+Store => where we save the updated state
+            ||
+            \/
+View => will recive the updated state
 
 
-npm 
-node package manager
+///////
+How to generate dummy api
+///////////
+npm i -g json-server
+json-server --watch db.json --port 7090
 
-JSON 
-> JavaScript Object notation
-way to reperesnt the Data
+npm i redux react-redux redux-logger prop-types
 
-let studnet = [
-    {
-        "name":"John",
-        class:"UI"
-    },
-    {
-        name:"Alvin",
-        class:"React"
-    }
-]
-
-package.json
-> meta data
-> script
-> packages
-
-///////////////////////
-Step to create package.json
-////////////////////
-
-** NodeJs must be installed in system
-> Using cmd/terminal navigate inside the folder
-> npm init
-> answer all question
-> type 'yes'
-
-
-///////////////////////
-Step to install local packages
-////////////////////
-
-> Using cmd/terminal navigate inside the folder
-> npm i packagename
-
-///////////////////////
-Step to install global packages
-////////////////////
-#mac/linux
-> open terminal
-> sudo npm i -g packagename
-
-#window
-> open cmd as admin
-> npm i -g packagename
-
-///////////////////////
-Step to generate react app
-////////////////////
-#mac/linux
->>>>>>only one time<<<<<<<
-> open terminal
-> sudo npm i -g create-react-app
-
->>>>>>next every time you want new app<<<<<<<
-> go inside folder where you want app
-> create-react-app appname
-
-#window
->>>>>>only one time<<<<<<<
-> open cmd as admin
-> npm i -g create-react-app
-
->>>>>>next every time you want new app<<<<<<<
-> go inside folder where you want app
-> create-react-app appname
-
-var a = 10
-undefined
-a>10?"hii":"Bie"
-"Bie"
-a==10?"hii":"Bie"
-"hii"
-
-
-function add(a,b){
- return a+b
-}
-
-add(1,2)
-
-
-parent => child (props)
-child => parent(function)
-
-parent(create function and in child call function and pass a props)
-
-npm i react-router-dom
-
-
-////////////
-(get) hotels> https://developerfunnel.herokuapp.com/hotels
-(get) hotelwrtcity > https://developerfunnel.herokuapp.com/hotels?city=6
-(get) hoteldetails > https://developerfunnel.herokuapp.com/hotelsdetails/1
-(get) onbasisoftrip> https://developerfunnel.herokuapp.com/hotellist/1
-https://developerfunnel.herokuapp.com/hotellist/1?roomtype=1
-https://developerfunnel.herokuapp.com/hotellist/1?hcost=1000&lcost=500
-(get) cityname> https://developerfunnel.herokuapp.com/location
-(get)  rooms => https://developerfunnel.herokuapp.com/rooms
-(get)  triptype> https://developerfunnel.herokuapp.com/booking
-(get)  bookingdetails > https://developerfunnel.herokuapp.com/allBooking
-(post) placebooking >  https://developerfunnel.herokuapp.com/placeBooking
+npm i apollo-boost graphql react-apollo 
