@@ -22,3 +22,13 @@ json-server --watch db.json --port 7090
 npm i redux react-redux redux-logger prop-types
 
 npm i apollo-boost graphql react-apollo 
+
+
+npm i redux react-redux redux-promise react-slick redux-logger prop-types 
+enzyme-adapter-react-16 react-addons-test-utils react-test-renderer react-router-dom
+
+{
+    "abc":[
+
+    ]
+}
