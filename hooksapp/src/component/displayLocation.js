@@ -1,6 +1,7 @@
 import React from 'react';
 
 function DisplayLocation(props) {
+    console.log(props)
     
     const renderLocation = ({mydata}) => {
         if(mydata){

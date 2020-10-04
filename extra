@@ -32,3 +32,30 @@ enzyme-adapter-react-16 react-addons-test-utils react-test-renderer react-router
 
     ]
 }
+
+npm i -g create-react-native-app
+npm i -g expo-cli 
+///////////////////////
+
+create-react-native-app mymobi
+cd mymobi
+npm run web
+
+function add(a,b){
+    return a+b
+}
+
+function sub(a,b){
+    return a-b
+}
+
+function cala(a,b,opt){
+    var out
+    if(opt == "Add"){
+        out = a+b
+    }
+    else if(opt="Sub"){
+        out= a-b
+    }
+    return out
+}
