@@ -1,0 +1,1 @@
+{"version":3,"sources":["Header.css"],"names":[],"mappings":"AAAA,OACQ,uBACR,CACA,MACQ,UAAU,CACV,iBAAiB,CACjB,cACR","file":"main.16690d49.chunk.css","sourcesContent":["header{\n        background-color:tomato\n}\n.logo{\n        color:#fff;\n        text-align:center;\n        font-size:30px;\n}\n"]}

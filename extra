@@ -59,3 +59,85 @@ function cala(a,b,opt){
     }
     return out
 }
+
+
+https://github.com/Aakashdeveloper/July_node_eveng/blob/master/dashboard/test/api.test.js
+
+/////build////
+npm run build 
+
+https://www.youtube.com/watch?v=i9g2Sg10DPk&t=153s
+
+microfrontend
+
+
+https://github.com/Aakashdeveloper/React-Isomorphic-App
+
+
+MERN 
+MOngo express React Node 
+
+Docker (images)
+Docker Sawrm
+Ansible
+
+
+docker build . -t edureactsep
+docker run -p 8989:3000 edureactsep
+
+
+nginx> reverse proxy , ssl 
+
+cert.pem
+cert.key 
+
+nginx.conf
+
+server{
+    listen 8081;
+    server_name aakashhande.me
+    location / {
+        root /var/www/react-app
+        index index.html
+    }
+}
+
+
+function looping(userinut){
+    for(i=0;i<5;i++){
+        console.log(i)
+    }
+}
+
+
+function * looping(userinut){
+    for(i=0;i<5;i++){
+        yield i
+    }
+}
+var data = looping(5)
+data.next()
+{value: 0, done: false}
+data.next()
+{value: 1, done: false}
+data.next()
+{value: 2, done: false}
+data.next()
+{value: 3, done: false}
+data.next()
+{value: 4, done: false}
+data.next()
+{value: undefined, done: true}
+
+
+
+
+React 
+React Hooks
+Backend
+Deployment
+
+Redux
+React graphql /Saga 
+Testing
+
